@@ -94,7 +94,7 @@ const AppStyle = styled.div`
     right:10px;
     position:absolute;
     overflow:hidden;
-    
+    width:40px;
   }
 .labelcenterbig{
   font-size: 24px;           

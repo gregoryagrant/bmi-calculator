@@ -6,7 +6,7 @@ import Gender from "./components/Gender";
 import Slider from "./components/Slider";
 import numeral from "numeraljs";
 import BMIGuage from "./components/BMIGuage";
-import logo from "./logo.svg";
+import Logo from './components/Logo'
 import BMIReduction from "./components/Articles/BMIReduction";
 import BMIIncrease from "./components/Articles/BMIIncrease";
 import BMIMaintain from "./components/Articles/BMIMaintain";
@@ -102,7 +102,7 @@ export default class App extends Component {
         <div className="row">
           <div className="col-md-12">
             <div className="card card-3">
-              <img alt="logo" src={logo} className="logo" />
+              <Logo className="logo" />
               <h3>Tell Me A Little About Yourself:</h3>
 
               <div className="instructions labelcenter">
